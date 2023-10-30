@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #fora {
+            margin: auto;
+            height: 600px;
+            width: 600px;
+            background-color: #bd7df5;
+            position: relative;
+        }
+
+        #dentro {
+            position: absolute;
+            left: 25%;
+            top: 25%;
+            height: 300px;
+            width: 300px;
+            background-color: #f5ff40;
+        }
+
+        #alert {
+            width: 150px;
+            height: 50px;
+            background-color: burlywood;
+            color: brown;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            border-radius: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #alert > h2 {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            position: relative;
+            top: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro">
+
+        </div>
+    </div>
+    <div id="alert">
+        <h2>Acorda!!!</h2>
+    </div>
+</body>
+</html>
